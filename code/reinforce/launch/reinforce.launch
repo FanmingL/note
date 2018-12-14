@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <node pkg="reinforce" type="reinforce_node" name="reinforce_node" respawn="false" output="screen"/>
+  
+  <node pkg="reinforce" type="cart_pole_server.py" name="cart_server" respawn="false" output="screen"/>
+
+
+
+</launch>
